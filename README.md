@@ -2,6 +2,7 @@
 
 TaskFlow is a simple task management application with a **frontend** built in React and a **backend** built with Node.js and MySQL. It supports user authentication, task management, and basic admin analytics.
 
+
 ---
 
 ## Folder Structure
@@ -22,6 +23,27 @@ TaskFlow/
 ├── README.md
 └── .gitignore
 ```
+
+---
+
+## Postman Collection
+
+The Postman collection for TaskFlow API is included in this repository.
+You can download or import it into Postman using the link below:
+
+[Download TaskFlow Postman Collection](./taskflow_collection.json)
+(Click to download or import directly into Postman)
+
+### Usage
+
+1. Open Postman → Click **Import** → Select **File**.
+2. Choose `taskflow_collection.json` from your local copy of the repository.
+3. Use the collection to test TaskFlow API endpoints.
+
+#### Test Credentials (if applicable):
+
+* **Admin:** [admin@taskflow.com](mailto:admin@taskflow.com) / [password]
+* **User:** [user1@taskflow.com](mailto:user1@taskflow.com) / [password]
 
 ---
 
@@ -102,22 +124,29 @@ Frontend will run on `http://localhost:3000`.
 
 ## API Documentation
 
-* You can add a **Swagger** file or a **Postman collection** here for testing APIs.
-* Example endpoints:
+You can test all APIs using the [Postman collection](./taskflow_collection.json).
 
-  * `POST /api/v1/auth/register`
-  * `POST /api/v1/auth/login`
-  * `GET /api/v1/admin/users`
-  * `DELETE /api/v1/admin/users/:id`
+### Example Endpoints:
+
+* `POST /api/v1/auth/register`
+* `POST /api/v1/auth/login`
+* `GET /api/v1/admin/users`
+* `DELETE /api/v1/admin/users/:id`
 
 ---
 
 ## Scalability Notes
 
-* **Microservices**: Could separate authentication, task, and admin services.
-* **Caching**: Use Redis to cache frequent queries (e.g., dashboard stats).
-* **Load balancing**: Deploy behind Nginx or a cloud load balancer.
-* **Database optimization**: Index frequently queried fields, use connection pooling.
+* **Microservices:** Could separate authentication, task, and admin services.
+* **Caching:** Use Redis to cache frequent queries (e.g., dashboard stats).
+* **Load balancing:** Deploy behind Nginx or a cloud load balancer.
+* **Database optimization:** Index frequently queried fields, use connection pooling.
+
+---
+
+## Contributing
+
+Feel free to open issues or submit pull requests to improve TaskFlow.
 
 ---
 
