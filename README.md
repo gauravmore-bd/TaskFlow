@@ -32,7 +32,6 @@ The Postman collection for TaskFlow API is included in this repository.
 You can download or import it into Postman using the link below:
 
 [Download TaskFlow Postman Collection](./TaskFlow Full API Collection.postman_collection.json)
-(Click to download or import directly into Postman)
 
 ### Usage
 
