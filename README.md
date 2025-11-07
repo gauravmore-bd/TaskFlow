@@ -2,6 +2,7 @@
 
 TaskFlow is a simple task management application with a **frontend** built in React and a **backend** built with Node.js and MySQL. It supports user authentication, task management, and basic admin analytics.
 
+> **Note:** Do not commit your `.env` files as they contain sensitive information.
 
 ---
 
@@ -31,7 +32,8 @@ TaskFlow/
 The Postman collection for TaskFlow API is included in this repository.
 You can download or import it into Postman using the link below:
 
-[Download TaskFlow Postman Collection](./TaskFlow Full API Collection.postman_collection.json)
+[Download TaskFlow Postman Collection](./TaskFlow%20Full%20API%20Collection.postman_collection.json)  
+(Click to download or import directly into Postman)
 
 ### Usage
 
